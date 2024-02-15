@@ -16,5 +16,8 @@
     "javascript"
   ],
   "author": "Mohammed Rahman",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  }
 }
