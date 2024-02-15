@@ -1,0 +1,20 @@
+{
+  "name": "readme-generator-mo",
+  "version": "1.0.0",
+  "description": "readme generator for users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/mrahman676/readme-generator-mo"
+  },
+  "keywords": [
+    "utilities",
+    "tools",
+    "javascript"
+  ],
+  "author": "Mohammed Rahman",
+  "license": "ISC"
+}
