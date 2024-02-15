@@ -61,5 +61,5 @@ function writeToFile(fileName, data) {
       writeToFile("./dist/README.md", generateMarkdown({ ...responses }));
     });
   }
-  
+
   init();
