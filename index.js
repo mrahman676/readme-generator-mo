@@ -50,3 +50,16 @@ const questions = [
         message: 'What is your email address?'
     }
 ];
+
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+  };
+
+  function init() {
+    inquirer.prompt(questions).then((responses) => {
+      console.log("Creating Professional README.md File...");
+      writeToFile("./dist/README.md", generateMarkdown({ ...responses }));
+    });
+  }
+  
+  init();
